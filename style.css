@@ -118,6 +118,7 @@ main{
     margin-left: 10%;
     margin-top: 10%;
     z-index: 999;
+    pointer-events: none;
 
 }
 
@@ -221,6 +222,13 @@ main{
    
 
 }
+
+.content .tag,
+.content .btn-shop,
+.content .btn-why{
+    pointer-events: auto;
+}
+
 @media(max-width:768px){
     .container{
 
